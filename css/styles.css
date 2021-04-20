@@ -79,6 +79,9 @@ h3 {
 .navBar__enlace:hover {
     color: var(--secundario);
 }
+.navBar__enlace--activo {
+    color: var(--secundario);
+}
 /* ============================================================ MAIN ============================================================ */
 .grid {
     display: grid;
