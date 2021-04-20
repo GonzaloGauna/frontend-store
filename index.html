@@ -11,139 +11,135 @@
 </head>
 <body>
 <!-- ============================================================== HEADER ============================================================== -->
-    <header>
+    <header class="header">
         <a href="index.html">
-            <img src="img/logo.png" alt="logo FRONTEND STORE">
+            <img class="header__logo" src="img/logo.png" alt="logo FRONTEND STORE">
         </a>
     </header>
 <!-- ============================================================== NAVBAR ============================================================== -->
-    <nav>
-        <a href="index.html">TIENDA</a>
-        <a href="nosotros.html">NOSOTROS</a>
+    <nav class="navBar">
+        <a class="navBar__enlace" href="index.html">TIENDA</a>
+        <a class="navBar__enlace" href="nosotros.html">NOSOTROS</a>
     </nav>
 <!-- =============================================================== MAIN =============================================================== -->
-    <main>
+    <main class="contenedor">
         <h1>nuestros productos</h1>
-        <div>
-            <div>
-                <div>
-                    <a href="#">
-                        <img src="img/1.jpg" alt="remera.vue">
-                        <div>
-                            <p>VUE.JS</p>
-                            <p>$25</p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <img src="img/2.jpg" alt="remera.angular">
-                        <div>
-                            <p>ANGULAR</p>
-                            <p>$25</p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <img src="img/3.jpg" alt="remera.react">
-                        <div>
-                            <p>REACT</p>
-                            <p>$25</p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <img src="img/4.jpg" alt="remera.redux">
-                        <div>
-                            <p>REDUX</p>
-                            <p>$25</p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <img src="img/5.jpg" alt="remera.node">
-                        <div>
-                            <p>NODE</p>
-                            <p>$25</p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <img src="img/6.jpg" alt="remera.sass">
-                        <div>
-                            <p>SAAS</p>
-                            <p>$25</p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <img src="img/7.jpg" alt="remera.html">
-                        <div>
-                            <p>HTML</p>
-                            <p>$25</p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <img src="img/8.jpg" alt="remera.github">
-                        <div>
-                            <p>GITHUB</p>
-                            <p>$25</p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <img src="img/9.jpg" alt="remera.bulma">
-                        <div>
-                            <p>BULMA</p>
-                            <p>$25</p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <img src="img/10.jpg" alt="remera.typescript">
-                        <div>
-                            <p>TYPESCRIPT</p>
-                            <p>$25</p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <img src="img/11.jpg" alt="remera.drupal">
-                        <div>
-                            <p>DRUPAL</p>
-                            <p>$25</p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <img src="img/12.jpg" alt="remera.javascript">
-                        <div>
-                            <p>JAVASCRIPT</p>
-                            <p>$25</p>
-                        </div>
-                    </a>
-                </div>
-                <div></div>
-                <div></div>
+        <div class="grid">
+            <div class="producto">
+                <a href="#">
+                    <img class="producto__imagen" src="img/1.jpg" alt="remera.vue">
+                    <div class="producto__info">
+                        <p class="producto__nombre">VUE.JS</p>
+                        <p class="porducto__precio">$25</p>
+                    </div>
+                </a>
             </div>
+            <div class="producto">
+                <a href="#">
+                    <img class="producto__imagen" src="img/2.jpg" alt="remera.angular">
+                    <div class="producto__info">
+                        <p class="producto__nombre">ANGULAR</p>
+                        <p class="porducto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="#">
+                    <img class="producto__imagen" src="img/3.jpg" alt="remera.react">
+                    <div class="producto__info">
+                        <p class="producto__nombre">REACT</p>
+                        <p class="porducto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="#">
+                    <img class="producto__imagen" src="img/4.jpg" alt="remera.redux">
+                    <div class="producto__info">
+                        <p class="producto__nombre">REDUX</p>
+                        <p class="porducto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="#">
+                    <img class="producto__imagen" src="img/5.jpg" alt="remera.node">
+                    <div class="producto__info">
+                        <p class="producto__nombre">NODE</p>
+                        <p class="porducto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="#">
+                    <img class="producto__imagen" src="img/6.jpg" alt="remera.sass">
+                    <div class="producto__info">
+                        <p class="producto__nombre">SAAS</p>
+                        <p class="porducto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="#">
+                    <img class="producto__imagen" src="img/7.jpg" alt="remera.html">
+                    <div class="producto__info">
+                        <p class="producto__nombre">HTML</p>
+                        <p class="porducto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="#">
+                    <img class="producto__imagen" src="img/8.jpg" alt="remera.github">
+                    <div class="producto__info">
+                        <p class="producto__nombre">GITHUB</p>
+                        <p class="porducto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="#">
+                    <img class="producto__imagen" src="img/9.jpg" alt="remera.bulma">
+                    <div class="producto__info">
+                        <p class="producto__nombre">BULMA</p>
+                        <p class="porducto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="#">
+                    <img class="producto__imagen" src="img/10.jpg" alt="remera.typescript">
+                    <div class="producto__info">
+                        <p class="producto__nombre">TYPESCRIPT</p>
+                        <p class="porducto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="#">
+                    <img class="producto__imagen" src="img/11.jpg" alt="remera.drupal">
+                    <div class="producto__info">
+                        <p class="producto__nombre">DRUPAL</p>
+                        <p class="porducto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+            <div class="producto">
+                <a href="#">
+                    <img class="producto__imagen" src="img/12.jpg" alt="remera.javascript">
+                    <div class="producto__info">
+                        <p class="producto__nombre">JAVASCRIPT</p>
+                        <p class="porducto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+            <div class="grafico grafico--remeras"></div>
+            <div class="grafico grafico--node"></div>
         </div>
     </main>
 <!-- ============================================================== FOOTER ============================================================== -->
-    <footer>
-        <div>
-            <p>FRONTEND STORE -- Todos los derechos reservados 2021.</p>
-        </div>
+    <footer class="footer">
+        <p class="footer__texto">FRONTEND STORE -- Todos los derechos reservados 2021.</p>
     </footer>
 </body>
 </html>
