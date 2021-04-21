@@ -83,6 +83,9 @@ h3 {
     color: var(--secundario);
 }
 /* ============================================================ MAIN ============================================================ */
+span {
+    letter-spacing: 0.25rem;
+}
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -156,4 +159,32 @@ h3 {
 .footer__texto {
     text-align: center;
     padding: 1rem;
+}
+/* ========================================================= NOSOTROS PAGE ========================================================= */
+/* ========================================================= NOSOTROS MAIN ========================================================= */
+.nosotrosGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+@media (min-width:  768px) {
+    .nosotrosGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.nosotros__texto {
+    text-align: center;
+    padding: 1rem;
+}
+.nosotros__imagen {
+    width: 100%;
+    padding: 1rem;
+}
+@media (min-width:  768px) {
+    .nosotros__imagen {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
 }
